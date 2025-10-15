@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth; /* biar scroll halus */
+}
+
+body {
+    background-image: url("back1.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+.pages {
+    background-image: src("back1.png");
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.linkp{
+    font-size: 30px;
+    background-color: lightcyan;
+}
+
+section {
+  padding-top: 7rem; /* Slightly more than the menu's 3rem to add some breathing room */
+  width: 100%;
+  height: calc(100vh - 3rem); /* Adjust height to account for menu */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(50, 50, 50, 0.9);
+  padding: 1rem;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;         
+    height: 3rem;
+    background: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* main {
+    flex: 1;
+} */
+
+.tail {
+    height: 3rem;
+    width: 100%;
+    background: rgba(50, 50, 50, 0.8); /* slightly transparent */
+}
